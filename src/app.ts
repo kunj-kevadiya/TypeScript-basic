@@ -6,6 +6,7 @@ interface Validatable{
     maxlength?: number;
     min?: number;
     max?: number;
+    //refactored code
 }
 
 function validate(validatableInput: Validatable){
